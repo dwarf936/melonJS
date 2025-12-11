@@ -10,6 +10,7 @@ import { ExampleGraphics } from "./examples/graphics/ExampleGraphics";
 import { ExampleHelloWorld } from "./examples/helloWorld/ExampleHelloWorld";
 import { ExampleIsometricRPG } from "./examples/isometricRpg/ExampleIsometricRPG";
 import { ExampleLights } from "./examples/lights/ExampleLights";
+import { ExampleParticles } from "./examples/particles/ExampleParticles";
 import { ExamplePlatformer } from "./examples/platformer/ExamplePlatformer";
 import { ExampleText } from "./examples/text/ExampleText";
 import { ExampleWhacAMole } from "./examples/whac-a-mole/ExampleWhacAMole";
@@ -54,6 +55,11 @@ const examples: { label: string; path: string; component: ReactElement }[] = [
 		component: <ExampleLights />,
 		label: "lights",
 		path: "lights",
+	},
+	{
+		component: <ExampleParticles />,
+		label: "particles",
+		path: "particles",
 	},
 	{
 		component: <ExamplePlatformer />,
